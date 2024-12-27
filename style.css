@@ -1,0 +1,36 @@
+body{
+
+
+  background-image: url(simple.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*cover the entire window even when resized*/
+  background-attachment: fixed;
+
+  margin: 0;
+
+}
+
+#clock-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+
+
+}
+
+#clock{
+
+  font-family: monospace;
+  font-size: 6.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+  backdrop-filter: blur(10px);
+  background-color: hsl(0, 0%, 100%, 0.1);/*foggy glass effect*/
+  width: 80%;
+  border-radius: 3%;
+}
